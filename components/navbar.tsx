@@ -74,14 +74,14 @@ export default function Navbar() {
 
           {/* Logo - center on mobile */}
           <div className="flex md:hidden">
-            <Link href="/" className="flex ga items-center">
+            <Link href="/" className="flex items-center">
               <Image 
-                src="/logo.svg" 
+                src="https://img.icons8.com/?size=100&id=64827&format=png&color=000000" 
                 alt="Logo" 
                 width={120} 
                 height={40} 
-                className="h-8 w-auto bg-red-500"
-              /> 
+                className="h-8 w-auto "
+              /> <p className="text-xl text-black font-bold">Give<span className="text-blue-600">Butter</span></p>
             </Link>
           </div>
 
@@ -104,12 +104,12 @@ export default function Navbar() {
             {/* Logo */}
             <Link href="/" className="flex gap-2 items-center">
               <Image 
-                src="/logo.svg" 
+                src="https://img.icons8.com/?size=100&id=64827&format=png&color=000000" 
                 alt="Logo" 
                 width={140} 
                 height={44} 
-                className="h-9 w-auto bg-red-500"
-              /><p className="text-xl font-bold">GiveButter</p>
+                className="h-9 w-auto"
+              /><p className="text-xl text-black font-bold">Give<span className="text-blue-600">Butter</span></p>
             </Link>
 
             {/* Search link */}
